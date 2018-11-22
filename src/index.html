@@ -13,7 +13,7 @@
       <h3>Bienvenido al CodeGenerator de la Universidad Nacional de Ingenieria
         ante todo felicitarlo por su ingreso, mediante esta plataforma le ayudamos a generar su código que le servirá para el acceso a su intranet. </h3><br>
 
-      <button  type="button"> siguiente </button>
+      <button  class="boton" type="button" id="boton-siguiente"> siguiente </button>
     </form>
 
     <form id="form2">
@@ -21,13 +21,13 @@
 
       <div>
         <label>ingresa tu numero de vacante alcanzada (general)</label>
-        <input type="number" placeholder="Colocar el número secreto" required>
+        <input type="number" placeholder="Colocar el número secreto" id="offset" required>
       </div>
      <div>
        <label for="nombre"> Completa tus datos: </label>
-       <input type="text" placeholder="Primer Nombre" required>
-       <input type="text" placeholder="Apellido Paterno" required>
-       <input type="text" placeholder="Apellido Materno" required>
+       <input type="text" placeholder="Primer Nombre" id="id-1" required>
+       <input type="text" placeholder="Apellido Paterno" id="id-2" required>
+       <input type="text" placeholder="Apellido Materno" id="id-3" required>
      </div>
 
      <h2>Modo de llenado</h2>
@@ -36,7 +36,7 @@
        <li>Agregar tu primer apellido</li>
        <li>Agregar segundo apellido</li>
      </ul><br>
-     <button type="button" > Siguiente </button>
+     <button class="boton" type="button" id= "boton-id"> Siguiente </button>
    </form>
 
    <form id="form3">
@@ -44,14 +44,14 @@
      <h2>Tu ID / PASWORD es:</h2><br>
      <div>
        <label>Tu ID es: </label>
-       <input type="text" value="" required> <br>
+       <input type="text" id="respuesta-id" value="" required> <br>
      </div>
      <div>
        <label>Tu PASWORD es: </label>
-       <input type="text" value="">
+       <input type="text" id="respuesta-password" value="">
      </div>
 
-     <button class="boton" type="button"> volver </button>
+     <button class="boton" type="button" id="boton-volver"> volver </button>
      <button class="boton" type="button"> Finalizar </button>
 
   </form>
