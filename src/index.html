@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
@@ -7,6 +7,55 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <form id="form1">
+      <h1>CodeGeneratorU</h1>
+      <h3>Bienvenido al CodeGenerator de la Universidad Nacional de Ingenieria
+        ante todo felicitarlo por su ingreso, mediante esta plataforma le ayudamos a generar su código que le servirá para el acceso a su intranet. </h3><br>
+
+      <button  type="button"> siguiente </button>
+    </form>
+
+    <form id="form2">
+      <h1>Código Universitario</h1>
+
+      <div>
+        <label>ingresa tu numero de vacante alcanzada (general)</label>
+        <input type="number" placeholder="Colocar el número secreto" required>
+      </div>
+     <div>
+       <label for="nombre"> Completa tus datos: </label>
+       <input type="text" placeholder="Primer Nombre" required>
+       <input type="text" placeholder="Apellido Paterno" required>
+       <input type="text" placeholder="Apellido Materno" required>
+     </div>
+
+     <h2>Modo de llenado</h2>
+     <ul>
+       <li>Llenar con tu primer nombre</li>
+       <li>Agregar tu primer apellido</li>
+       <li>Agregar segundo apellido</li>
+     </ul><br>
+     <button type="button" > Siguiente </button>
+   </form>
+
+   <form id="form3">
+     <h1>Código Univeritario</h1>
+     <h2>Tu ID / PASWORD es:</h2><br>
+     <div>
+       <label>Tu ID es: </label>
+       <input type="text" value="" required> <br>
+     </div>
+     <div>
+       <label>Tu PASWORD es: </label>
+       <input type="text" value="">
+     </div>
+
+     <button class="boton" type="button"> volver </button>
+     <button class="boton" type="button"> Finalizar </button>
+
+  </form>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
