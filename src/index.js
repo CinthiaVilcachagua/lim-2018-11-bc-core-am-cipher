@@ -14,7 +14,7 @@
   document.getElementById('form3').style.display='none';
 
   //funcion captar Letras
-  function captarLetras(word,n){
+   captarLetras(word,n) => {
     let resultWord = '';
     for(let i = 0; i < n; i++){
       resultWord += word[i];
@@ -22,7 +22,7 @@
     return resultWord;
   }
 
-  btnNext.addEventListener('click',function(){
+  btnNext.addEventListener('click', () => {
       document.getElementById('form1').style.display='none'; //desaparece el form1
       document.getElementById('form2').style.display='block'; //aperece el form2
   })
@@ -30,7 +30,7 @@
 
 
 
-    btnId.addEventListener('click', function (){
+    btnId.addEventListener('click', () => {
       document.getElementById('form2').style.display='none'; //desaparece el form2
       document.getElementById('form3').style.display='block'; //aparece el form3
       const offset = parseInt(document.getElementById('offset').value);
@@ -44,18 +44,18 @@
       string3 = captarLetras(string3,2);
 
 
-      id.value = '2018' + cipher.encode(string1,offset) + cipher.encode(string2,offset) + cipher.encode(string3,offset); //si colocamos el parseInt en la funcion
+      id.value = '2018' + cipher.encode(offset,string1) + cipher.encode(offset,string2) + cipher.encode(offset,string3); //si colocamos el parseInt en la funcion
       id.disabled ='disabled';
 
 
 
-      password.value = cipher.decode(string3,offset) + cipher.decode(string2,offset) + cipher.decode(string1,offset); // se coloca value, porque yo inserto el valor a un input
+      password.value = cipher.decode(offset,string3) + cipher.decode(offset,string2) + cipher.decode(offset,string1); // se coloca value, porque yo inserto el valor a un input
       //seia getelemnetbyid solo si yo inserto el texto a un p o h1, etc.
       password.disabled = 'disabled'; //para que nadie pueda tocarlo
   })
 
 
-  btnReturn.addEventListener('click',function(){
+  btnReturn.addEventListener('click',() => {
       document.getElementById('form1').style.display = 'block';
       document.getElementById('form3').style.display = 'none';
   })
