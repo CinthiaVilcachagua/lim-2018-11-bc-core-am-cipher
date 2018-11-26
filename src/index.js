@@ -14,7 +14,7 @@
   document.getElementById('form3').style.display='none';
 
   //funcion captar Letras
-   captarLetras(word,n) => {
+  function captarLetras(word,n){
     let resultWord = '';
     for(let i = 0; i < n; i++){
       resultWord += word[i];
