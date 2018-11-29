@@ -1,5 +1,5 @@
 //funcion  cifrado cesar
-  function encode(offset,string){
+  const encode =(offset,string) => {
     let phraseFinal = '';
     string = string.toUpperCase();
     for (let i = 0; i < string.length; i++) {
@@ -10,7 +10,7 @@
   }
 
 //funcion de decifrado
-function decode(offset,string){
+const decode = (offset,string) => {
   let phraseFinal = "";
   string = string.toUpperCase();
   for (let i = 0; i < string.length; i++) {
@@ -25,6 +25,8 @@ function decode(offset,string){
 
 
 window.cipher = {
-  encode: encode,
-  decode: decode
+  encode:
+     encode,
+  decode:
+    decode
 };
