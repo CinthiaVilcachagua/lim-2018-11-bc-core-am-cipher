@@ -10,8 +10,7 @@
 
   const btnReturn = document.getElementById('boton-volver');
 
-  document.getElementById('form2').style.display='none';
-  document.getElementById('form3').style.display='none';
+
 
   //funcion captar Letras
   const captarLetras = (word,n) => {
@@ -23,16 +22,18 @@
   }
 
   btnNext.addEventListener('click', () => {
-      document.getElementById('form1').style.display='none'; //desaparece el form1
-      document.getElementById('form2').style.display='block'; //aperece el form2
+      document.getElementById('form1').setAttribute('class','ocultar'); //desaparece el form1
+      document.getElementById('form2').setAttribute('class','visible'); //aperece el form2
+      document.getElementById('cuerpo').setAttribute('class','fondo-1');
   })
 
 
 
 
     btnId.addEventListener('click', () => {
-      document.getElementById('form2').style.display='none'; //desaparece el form2
-      document.getElementById('form3').style.display='block'; //aparece el form3
+      document.getElementById('form2').setAttribute('class','ocultar'); //desaparece el form2
+      document.getElementById('form3').setAttribute('class','visible'); //aparece el form3
+      document.getElementById('cuerpo').setAttribute('class','fondo-2');
       const offset = parseInt(document.getElementById('offset').value);
 
       let string1= document.getElementById('id-1').value;
@@ -56,6 +57,7 @@
 
 
   btnReturn.addEventListener('click',() => {
-      document.getElementById('form1').style.display = 'block';
-      document.getElementById('form3').style.display = 'none';
+      document.getElementById('form1').setAttribute('class','visible');
+      document.getElementById('form3').setAttribute('class','ocultar');
+      document.getElementById('cuerpo').setAttribute('class', 'fondo-0');
   })
