@@ -73,12 +73,14 @@ h1 {
   margin-top: 0;
   color: rgba(0,0,0,0.7);
   font-family: 'Orbitron', sans-serif;
+  font-size: 43px;
 
 }
 
 h3,label{
-font-family: 'Satisfy', cursive;
-  width: 300px;
+font-family: 'Muli', sans-serif;
+  width: 400px;
+  font-size: 25px;
 }
 
 
