@@ -57,7 +57,5 @@
 
 
   btnReturn.addEventListener('click',() => {
-      document.getElementById('form1').setAttribute('class','visible');
-      document.getElementById('form3').setAttribute('class','ocultar');
-      document.getElementById('cuerpo').setAttribute('class', 'fondo-0');
+     window.location.href = "index.html" // para hacer reinicio de pantalla.
   })
