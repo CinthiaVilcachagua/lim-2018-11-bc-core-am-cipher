@@ -1,6 +1,6 @@
 # Code Generator
 
-Code Generator, es una aplicación web dirigida a los jovenes universitarios que recien ingresan a su alma mater, para que se facilite el generado de su código de acceso a las intranet de dichas universidades.
+Code Generator, es una aplicación web dirigida a los jóvenes universitarios que recien ingresan a su alma mater, para que se facilite el generado de su código de acceso a las intranet de dichas universidades.
 
 
 ## Resumen del proyecto
@@ -10,14 +10,14 @@ Code Generator, es una aplicación web dirigida a los jovenes universitarios que
 Para genera el ID decidí, coger las 2 primeras letras de cada dato (nombre y apellidos) y cifrarlas.
 Para generar el PASSWORD fue basicamente como el ID, coger las 2 primeras letras y descifrarlas, solamente que en este caso me devolveria primero las 2 primeras letras del apellido materno, luego la del paterno y finalmente las del Nombre.
 
-##Objetivo del Producto
+## Objetivo del Producto
 Permite al usuario poder generar su clave de acceso a la intranet de su Universida con su datos personales, asi mismo si se olvida su ID o PASSWORD, podre acceder nuevamente y verificar su clave de acceso con sus mismos datos.
 
-##Usuarios del Producto
-- universidades
+## Usuarios del Producto
+- Universidades
 - Cachimbos de universidades
--Institutos
--Ingresantes a Institutos
+- Institutos
+- Ingresantes a Institutos
 
-##Instalación
-No necesita instalación,solo tendrá que dirigirse al siguiente enlace [Code Generator](https://cinthiavilcachagua.github.io/lim-2018-11-bc-core-am-cipher/src/)
+## Instalación
+- No necesita instalación, solo tendrá que dirigirse al siguiente enlace [Code Generator](https://cinthiavilcachagua.github.io/lim-2018-11-bc-core-am-cipher/src/)
