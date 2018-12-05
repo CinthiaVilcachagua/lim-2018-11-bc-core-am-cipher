@@ -3,60 +3,73 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link href="https://fonts.googleapis.com/css?family=Muli|Orbitron" rel="stylesheet">
-    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" >
+    <link rel="shortcut icon" href="imagen/logo.ico">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body id="cuerpo" class ="fondo-0">
+  <body class="fondo1" id="cuerpo">
 
-    <div id="root" class ="container">
+    <main id="main_screen" >
       <header>
-            <img src="imágenes/codegenerator3.png" alt="Logo superior llamado CodeGenerator">
+
+        <img id="logo"src="imagen/codegenerator.png" alt="Logo superior llamado CodeGenerator">
       </header>
-      <form id="form1" class="visible" >
-        <h1>Bienvenido  a  CodeGenerator </h1>
+      <section id="principal_screen" class="visible">
+          <div class="principal_container">
+              <div class="form_top1">
+                <h1>Bienvenido a CodeGeneratorU</h1>
+              </div>
 
-        <h3>Mediante esta plataforma podrás generar tu código de acceso a la intranet de tu respectiva Universidad o Instituto. </h3>
+              <h3>CodeGeneratorU, es una aplicacion web que te ayudará a crear tu id y tu password para que puedas ingresar por defecto a la plataforma de la intranet de tu institución, ya sea un Instituto o Universidad. </h3>
 
-        <button  class="boton" type="button" id="boton-siguiente">
-        <!--  <i class="fas fa-angle-right"></i> -->
-          Siguiente
-        </button>
-      </form>
+              <button class="boton" type= "button" id="boton_empezar">Empezar</button>
+          </div>
+      </section>
+      <section id="form_screen" class = "ocultar">
+        <div class="register_container">
+            <div class = "form_top2">
+              <h1>Registro</h1>
+            </div>
+            <form class="form_input" action="">
 
-      <form id="form2" class= "ocultar">
-        <h1>Registro</h1>
-        <div>
-          <label>Ingresa tu numero de vacante alcanzada (general)</label>
-          <input type="number" placeholder="Número de vacante" id="offset" required>
+              <label for="offset">Ingresa tu numero de vacante alcanzada(general)</label>
+              <input type="number" name= "offset" placeholder="N°" id="offset" required>
+              <input class = "register" type="text" placeholder="&#128125; Primer Nombre" id="id-1" required>
+              <input class = "register" type="text" placeholder="&#128104; Apellido Paterno" id="id-2" required>
+              <input class = "register" type="text" placeholder="&#128105; Apellido Materno" id="id-3" required>
+              <div class="button_form">
+                  <button class="boton" type="button" id= "boton_siguiente"> Siguiente </button>
+              </div>
+            </form>
         </div>
-       <div>
-         <input type="text" placeholder="&#128100;Primer Nombre" id="id-1" required>
-         <input type="text" placeholder="&#128100;Apellido Paterno" id="id-2" required>
-         <input type="text" placeholder="&#128100;Apellido Materno" id="id-3" required>
-       </div>
+      </section>
 
-       <button class="boton" type="button" id= "boton-id"> Siguiente </button>
-     </form>
+    <section id="result_screen" class="ocultar">
+        <div class="result_container">
+            <div class = "form_top3">
+                <h1>Tu ID / PASSWORD generado es:</h1>
+            </div>
+            <form class="form_input" action="">
+              <div class="result">
+                <label>Tu ID es: </label>
+                <input type="text" id="respuesta_id" value="" required> <br>
+              </div>
 
-     <form id="form3" class="ocultar">
+              <div class="result">
+                <label for="respuesta_password">Tu PASWORD es: </label>
+                <input type="text" name="respuesta_password" id="respuesta_password" value="">
+              </div>
 
-       <h1>Tu ID / PASWORD es:</h1>
-       <div>
-         <label>Tu ID es: </label>
-         <input type="text" id="respuesta-id" value="" required> <br>
-       </div>
-       <div>
-         <label>Tu PASWORD es: </label>
-         <input type="text" id="respuesta-password" value="">
-       </div>
 
-       <button class="boton" type="button" id="boton-volver"> Volver </button>
-       <button class="boton" type="button"> Finalizar </button>
+                <button class="boton" type="button" id="boton_volver"> Volver </button>
+                <button class="boton" type="button" id="boton_finalizar"> Finalizar </button>
+            </form>
+        </div>
+    </section>
+  </main>
 
-    </form>
-  </div>
-    <script src="cipher.js"></script>
     <script src="index.js"></script>
+    <script src="cipher.js"></script>
+
   </body>
 </html>

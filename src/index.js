@@ -1,18 +1,20 @@
-//Creamos la variable y llamamos a los valores del form2,
-  //llamamos al boton de Siguiente
-  const btnId = document.getElementById('boton-id');
-  //creamos la variable y llamamos a los valores del form 2
-  const id = document.getElementById('respuesta-id');
- //llamamos a la variable y respuesta de password
-  const password = document.getElementById('respuesta-password');
+// //Creamos la variable y llamamos a los valores del form2,
+//   //llamamos al boton de Siguiente
+  const btnNext = document.getElementById('boton_siguiente');
+//   //creamos la variable y llamamos a los valores del form 2
+  const id = document.getElementById('respuesta_id');
+//  //llamamos a la variable y respuesta de password
+  const password = document.getElementById('respuesta_password');
 
-  const btnNext = document.getElementById('boton-siguiente');
+  const btnStart = document.getElementById('boton_empezar');
 
-  const btnReturn = document.getElementById('boton-volver');
+  const btnReturn = document.getElementById('boton_volver');
 
 
 
-  //funcion captar Letras
+
+
+  // funcion captar Letras
   const captarLetras = (word,n) => {
     let resultWord = '';
     for(let i = 0; i < n; i++){
@@ -21,19 +23,18 @@
     return resultWord;
   }
 
-  btnNext.addEventListener('click', () => {
-      document.getElementById('form1').setAttribute('class','ocultar'); //desaparece el form1
-      document.getElementById('form2').setAttribute('class','visible'); //aperece el form2
-      document.getElementById('cuerpo').setAttribute('class','fondo-1');
+  btnStart.addEventListener('click', () => {
+      document.getElementById('principal_screen').setAttribute('class','ocultar'); //desaparece el form1
+      document.getElementById('form_screen').setAttribute('class','visible'); //aperece el form2
+      document.getElementById('cuerpo').setAttribute('class','fondo2')
   })
 
+  //
+    btnNext.addEventListener('click', () => {
+      document.getElementById('form_screen').setAttribute('class','ocultar'); //desaparece el form2
+      document.getElementById('result_screen').setAttribute('class','visible'); //aparece el form3
+      document.getElementById('cuerpo').setAttribute('class','fondo3');
 
-
-
-    btnId.addEventListener('click', () => {
-      document.getElementById('form2').setAttribute('class','ocultar'); //desaparece el form2
-      document.getElementById('form3').setAttribute('class','visible'); //aparece el form3
-      document.getElementById('cuerpo').setAttribute('class','fondo-2');
       const offset = parseInt(document.getElementById('offset').value);
 
       let string1= document.getElementById('id-1').value;
@@ -54,7 +55,6 @@
       //seia getelemnetbyid solo si yo inserto el texto a un p o h1, etc.
       password.disabled = 'disabled'; //para que nadie pueda tocarlo
   })
-
 
   btnReturn.addEventListener('click',() => {
      window.location.href = "index.html" // para hacer reinicio de pantalla.
