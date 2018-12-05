@@ -35,7 +35,6 @@ Para poder ejecutar todo se consideró en usar 3 secciones donde el usuario pued
 
 Con respecto a la elección de colores, se investigó sobre la psicología del color en relación a los usuarios y se optó por colores principales al azul y degradados ya que se caracterizan por la: concentración, simpatía, confianza y practicidad); además también se optó como principal al naranja porque transmite dinamismo, espontaneidad, alegría y jala a la visualización. Como color neutral se usó el blanco y los colores secundarios (especialmente para el fondo) fueron el lila, violeta y verde agua.
 
-*** Ingresar imagen de la paleta de colores ***
 
 Para la creación del logotipo, se hizo de manera sencilla y sin rodeos, se aplicó el nombre del proyecto y los colores principales.
 
@@ -49,22 +48,26 @@ Sobre la fuente usada, se optó por manejar formas tipo sans-serif (transmite al
 Para este proyecto tuvimos 2 sprint, de los cuales mi aplicación fue cambiando.
 
 >### Primer Sprint:
+
 En mi primer sprint ya se tenía claro hacia qué público objetivo se dirigía, pero aún no se comprendía muy bien sus necesidades. Quería que mi plataforma tenga la misma funcionalidad de emitir el ID y Password pero que el desplazamiento se lo indique la institución por medio de un correo (aplicando así el mismo desplazamiento para el cifrado y descifrado).
 Quería que cifrara su nombre y apellido tan solo cogiendo las 2 primeras letras de ambos campos. Para el Password pensaba en que el usuario recibiría por medio de un correo el texto a descifrar usando el mismo desplazamiento que para el ID.
 Comencé trabajando con el HTML (estructura básica), luego practicando con cifrado y descifrado aparte; una vez que tenía eso, comencé a unirlo a mi código aplicando las funciones y trabando el JS con DOM’s.
 Mi CSS era super básico, y aún no me quedaba clara la idea de cómo iba a obtener el usuario los códigos a descifrar y el desplazamiento, haciendo mi app muy compleja para el usuario.
 
-*** COLOCAR IMAGEN DEL PRIMER STRING***
+<img src= "Image-readme/ANTES.png" alt="Mi proyecto durante el primer string" style= "max-width:100%">
 
 
 >### Segundo Sprint:
+
 Para este segundo sprint comencé a ahondar y pensar más en los usuarios (ponerme en sus zapatos) y en las necesidades que mi producto pudiera absolver (la problemática de cómo se genera y obtiene hoy en día un código para la plataforma intranet de cada instituto o Universidad).
 
 Teniendo en cuenta muchos factores, reestructure todo el código, modifique el HTML y el JS. Logré adaptarme al usuario y construir una aplicación rápida en funcionalidad, donde el usuario pueda interactuar y completar los campos requeridos sin complicaciones.
 
 Como último punto se tomaron nuevas decisiones respecto al diseño: nuevos colores, emplazamiento y formas, así como la adición de interacción y atractivo visual.
 
-***COLOCAR IMÁGENES DEL SEGUNDO STRING***
+<img src= "Image-readme/Despues-parte1.png" alt="Mi proyecto finalizado" style= "max-width:100%">
+
+<img src= "Image-readme/despues-parte2.png" alt="Mi proyecto finalizado" style= "max-width:100%">
 
 ***
 
@@ -72,6 +75,7 @@ Como último punto se tomaron nuevas decisiones respecto al diseño: nuevos colo
 ## Instrucciones y Funcionalidad de la aplicación.
 
 > #### INSTRUCCIONES:
+
 1. Al comienzo te aparecerá una pequeña descripción acerca de la aplicación web:
     - Haz click en el botón comenzar, para iniciar.
     - Para cifrar: Elige un número secreto que será el código de descifrado que utilizarás en adelante.
@@ -82,7 +86,7 @@ Como último punto se tomaron nuevas decisiones respecto al diseño: nuevos colo
 3. Hazle 'click' al botón `siguiente` para obtener tu ID y PASSWORD.
 4. Listo! habrás conseguido tu **ID** (**cifrando** las 2 primeras letras de cada campo utilizando tu número de ingreso como el desplazamiento) y **PASSWORD** (al igual que en el ID tomamos las 2 primeras letras de cada campo, pero en este caso las **desciframos** y se devuelve en el orden inverso).
 
-Esta aplicación no necesita instalación, así que [¡Probarlo ya!] (https://cinthiavilcachagua.github.io/lim-2018-11-bc-core-am-cipher/src/)
+No necesita instalación,solo tendrá que dirigirse al siguiente enlace [Code Generator](https://cinthiavilcachagua.github.io/lim-2018-11-bc-core-am-cipher/src/)
 
 
 <p align="right">Creado por Cinthia Vilcachagua.</p>

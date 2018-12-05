@@ -10,7 +10,7 @@
 
   const btnReturn = document.getElementById('boton_volver');
 
-
+  const btnFinish = document.getElementById('boton_finalizar')
 
 
 
@@ -58,4 +58,8 @@
 
   btnReturn.addEventListener('click',() => {
      window.location.href = "index.html" // para hacer reinicio de pantalla.
+  })
+
+  btnFinish.addEventListener('click', () => {
+     window.close(); //para que mi ventana se cierre.
   })
