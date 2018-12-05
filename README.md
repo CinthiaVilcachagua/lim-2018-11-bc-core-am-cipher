@@ -65,7 +65,7 @@ Como último punto se tomaron nuevas decisiones respecto al diseño: nuevos colo
 
 <img src= "Image-readme/Despues-parte1.png" alt="Mi proyecto finalizado" style= "max-width:100%">
 
-<img src= "Image-readme/despues-parte 2.png" alt="Mi proyecto finalizado" style= "max-width:100%">
+<img src= "Image-readme/despues-parte2.png" alt="Mi proyecto finalizado" style= "max-width:100%">
 
 ***
 
@@ -85,6 +85,3 @@ Como último punto se tomaron nuevas decisiones respecto al diseño: nuevos colo
 4. Listo! habrás conseguido tu **ID** (**cifrando** las 2 primeras letras de cada campo utilizando tu número de ingreso como el desplazamiento) y **PASSWORD** (al igual que en el ID tomamos las 2 primeras letras de cada campo, pero en este caso las **desciframos** y se devuelve en el orden inverso).
 
 No necesita instalación,solo tendrá que dirigirse al siguiente enlace [Code Generator](https://cinthiavilcachagua.github.io/lim-2018-11-bc-core-am-cipher/src/)
-
-
-<p align="right">Creado por Cinthia Vilcachagua.</p>
