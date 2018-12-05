@@ -273,16 +273,3 @@ label{
 .visible {
   display: block;
 }
-
-@media screen and(max-width:600px) {
-  header{
-    width:10em;
-  }
-}
-
-/* @media screen and(max-width:400px){
-  header{
-    height: 5%;
-  }
-}
-*/
