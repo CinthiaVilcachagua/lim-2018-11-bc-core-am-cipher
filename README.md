@@ -31,14 +31,12 @@ Al tener definido a que tipos de usuario iba a estar dirigido este proyecto, se 
 
 Para poder ejecutar todo se consideró en usar 3 secciones donde el usuario pueda visualizar en primera instancia la página de inicio y una pequeña descripción, en la segunda página se puede visualizar el uso de un formulario(cajas con bordes redondeados, tamaño compacto , y todo debidamente proporcionado), en la página 3 visualizarán lo que viene a ser el resultado del cifrado y descifrado dando a conocer su código ID y PASSWORD en cajas como al igual que las secciones de la página 2 de forma estilizada.
 
-****INCLUIR IMAGEN DE LAS 3 SECCIONES****
-
 Con respecto a la elección de colores, se investigó sobre la psicología del color en relación a los usuarios y se optó por colores principales al azul y degradados ya que se caracterizan por la: concentración, simpatía, confianza y practicidad); además también se optó como principal al naranja porque transmite dinamismo, espontaneidad, alegría y jala a la visualización. Como color neutral se usó el blanco y los colores secundarios (especialmente para el fondo) fueron el lila, violeta y verde agua.
 
 
 Para la creación del logotipo, se hizo de manera sencilla y sin rodeos, se aplicó el nombre del proyecto y los colores principales.
 
-*** IMAGEN DEL LOGOTIPO ***
+<img src= "src/imagen/codegenerator.png" alt="logotipo" style= "max-width:80%">
 
 Sobre la fuente usada, se optó por manejar formas tipo sans-serif (transmite alegría y en ciertas ocasiones minimalismo), Orbitron (transmite seguridad), Muli (transmiten modernidad) y Paytone (aporta personalidad). Sobre el lenguaje de la aplicación, se hizo uso del lenguaje formal.
 
@@ -67,7 +65,7 @@ Como último punto se tomaron nuevas decisiones respecto al diseño: nuevos colo
 
 <img src= "Image-readme/Despues-parte1.png" alt="Mi proyecto finalizado" style= "max-width:100%">
 
-<img src= "Image-readme/despues-parte2.png" alt="Mi proyecto finalizado" style= "max-width:100%">
+<img src= "Image-readme/despues-parte 2.png" alt="Mi proyecto finalizado" style= "max-width:100%">
 
 ***
 
